@@ -1,1 +1,16 @@
-# Lista-2-estrutura-de-dados
+# Lista 2 –Estrutura de Dados
+
+
+1)Considere uma estrutura de conta corrente contendo o nome do titular, o CPF e o valor na conta. Escreva uma função que cadastre 5 usuários e os exiba na tela ordenados de forma decrescente de acordo com o valor na conta.
+
+2)Escreva uma função que tenha nome e data de nascimento (dia, mês e ano). Portanto data é uma struct, então será struct data dentro de outra struct. Popule um vetor (através do usuário) que tenha 5 unidades dessa nova estrutura e busque a pessoa mais velha. Exiba o nome e a data de nascimento dessa pessoa mais velha. 
+
+3)Escreva um programa que calcule a distância entre dois pontos no plano cartesiano. Cada ponto é um par (x,y)  de  reais  (double).  Escreva  uma  estrutura  para  armazenar  cada  ponto.  O  cálculo  da  distância deverá ser feita em uma função separada que vai receber os dois pontos (na forma de struct), fazer o cálculo e retornar o resultado para ser exibido na main.DICA: segue o link para saber como é a fórmula da distância de 2 pontos.https://brasilescola.uol.com.br/matematica/distancia-entre-dois-pontos.htm
+
+4)Considerando a estrutura do exercício anterior, escreva uma função que receba seis pontos, preenchidos pelo  usuário.  Os  três  primeiros  pontos  formam  um  triângulo  e  os  outros  três  formam  outro  triângulo. Comparando os dois triângulos, classifique se são isósceles, equiláteros e escalenos. DICA: segue o link para saber como classificar um triângulo de acordo com os lados dele.https://www.infoescola.com/matematica/tipos-de-triangulos/
+
+5)Faça um programa que gerencie oestoque de um mercado e:●Crie e leia um vetor de 5 produtos, com os dados: código (inteiro), nome (máximo 15 letras), preço e quantidade.●Leia um pedido, composto por um código de produto e a quantidade. Localize este código no vetor e, se houver quantidade suficiente para atender ao pedido integralmente, faça o pedido, atualize o estoque e informe o usuário (exibir na tela item vendido, quantidade vendida e quantos restam no estoque). Repita este processo até zerar o estoque. ●Se a quantidade do pedido for maior que o estoque, exibir mensagem com a quantidade de itens no estoque  
+
+6)Crie um jogo onde o computador sorteia um número de 1 até 10, e você tenta adivinhar qual é o número. Porém esse número está vinculado a um nome, portanto use struct. Use uma função que faça esse sorteio aleatório, recebendo a struct como parâmetro e retorne o número sorteado. Na main, exiba esse número sorteado e o nome da pessoa sorteada. Procure na internet por Rand, Srand e Random.
+
+7)Faça um programa que controle o fluxo de voos nos aeroportos do Brasil. Temos 5 aeroportos e 10 voos.●Crie e leia do usuário um vetor de voos, sendo que cada voo contém um código de aeroporto de origem e um de destino.●Crie um vetor de aeroportos, sendo que cada aeroporto contém seu código, nome, quantidade de voos que saem e quantidade de voos que chegam.Nota: Cada aeroporto é identificado por um código inteiro entre 0 e 5. Não aceiteaeroportos de código inexistente (faça a verificação).CUIDADO: tem um valor em comum que interliga as duas structs. Tenha coerência na hora de popular as  structs.  Um  aeroporto  não  pode  ter  mais  de  10  voos  nem  de  chegada  e  nem  de  saída,  faça  a verificação disso.Por fim, exiba na tela o nome de cada aeroporto e os voos que chegaram e saíram dele, ou seja, o nome do aeroporto de origem do voo e o nome do aeroporto de destino do voo.
